@@ -2,11 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { checkServerIdentity } from "tls";
+import CarsList from "./CarsList";
 
-const Car = props => {
-  console.log(props);
-  return <div>Car</div>;
-};
+const Car = ({ props }) => <div className="Car" />;
 
 Car.propTypes = {
   car: PropTypes.shape({
