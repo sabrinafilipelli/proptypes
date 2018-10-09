@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>PropTypes</h1>
-        <h3>Lets build some cars</h3>
+        <h3>Lets build some Cars</h3>
         <CarsList cars={this.state.cars} />
       </div>
     );
